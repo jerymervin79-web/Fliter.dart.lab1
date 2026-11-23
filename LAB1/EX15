@@ -1,0 +1,10 @@
+import "dart:io";
+void main() {
+  const lab = "great player";
+  print("Welcome to $lab! msd?");
+  final name = stdin.readLineSync() ?? "Student";
+  print("Age?");
+  String ageText = stdin.readLineSync() ?? "18";
+  int age = int.parse(ageText);
+  print("$name will be ${age + 1} next year");
+}
