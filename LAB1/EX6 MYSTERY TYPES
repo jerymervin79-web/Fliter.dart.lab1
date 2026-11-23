@@ -1,0 +1,7 @@
+void main() {
+  num points = 10;
+  points = 10.5;
+  dynamic item = "kings";
+  print(points.runtimeType);
+  print(item);
+}
