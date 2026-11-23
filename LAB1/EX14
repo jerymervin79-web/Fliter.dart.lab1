@@ -1,0 +1,8 @@
+import "dart:io";
+void main() {
+  print("what's your name?");
+  String name = stdin.readLineSync() ?? "Student";
+  print("City?");
+  String city = stdin.readLineSync() ?? "Unknown";
+  print("$name lives in $city");
+}
