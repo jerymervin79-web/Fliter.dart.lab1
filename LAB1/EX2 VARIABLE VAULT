@@ -1,0 +1,4 @@
+void main() {
+  var mca = 20;
+  print(mca);
+}
