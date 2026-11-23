@@ -1,0 +1,5 @@
+void main() {
+  final student = "Jery";
+  const course = "Dart";
+  print("$student studies $course");
+}
