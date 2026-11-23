@@ -1,0 +1,6 @@
+void main() {
+  String name = "jery";
+  print("msd $name");
+  print(name.length);
+  print(name.toUpperCase());
+}
