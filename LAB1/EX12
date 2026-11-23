@@ -1,0 +1,6 @@
+void main() {
+  String ageText = "100";
+  int age = int.parse(ageText);
+  print(age + 1);
+  print(age.toString());
+}
