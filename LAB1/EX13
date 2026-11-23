@@ -1,0 +1,6 @@
+import "dart:io";
+void main() {
+  print("what?");
+  String name = stdin.readLineSync() ?? "Explorer";
+  print("Hello $name");
+}
