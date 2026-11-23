@@ -1,0 +1,5 @@
+void main() {
+  var coins = 5;
+  coins = 12;
+  print(coins);
+}
